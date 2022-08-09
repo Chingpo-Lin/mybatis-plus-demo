@@ -10,6 +10,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void login(String pwd, String phone) {
-        log.info("user login: {}", phone);
+        log.info("user login: { }", phone);
     }
 }
